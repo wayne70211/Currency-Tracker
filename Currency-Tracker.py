@@ -42,7 +42,7 @@ def search(name=None):
     try:
         df = df.iloc[:,[2,3,4,5]].astype(float)
         df.insert(0, '銀行', ['台灣銀行','台新銀行'], True)
-        display(df)
+        #display(df)
         return df
     except ValueError:
         print('幣別不存在')
