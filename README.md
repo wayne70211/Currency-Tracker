@@ -5,7 +5,8 @@
 
 ## Add LINE Notify ID
 
-The LINE Notify ID can get from [Here](https://notify-bot.line.me/zh_TW/)
+The LINE Notify ID can get from [Here](https://notify-bot.line.me/zh_TW/) <br>
+Replace the **token** with your LINE Notify ID
 
 ```python
 if __name__=="__main__":
