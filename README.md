@@ -26,3 +26,9 @@ if __name__=="__main__":
     except ValueError:
         print('輸入錯誤，請再試一次')
 ```
+
+## Requirement
+* Python 3
+* Numpy
+* Pandas
+* requests
