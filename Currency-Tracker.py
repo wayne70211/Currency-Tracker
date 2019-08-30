@@ -94,7 +94,11 @@ def run(currency,target,token=None):
             tracker=False
             break
 
-        time.sleep(300)
+        # 每日 8:50~9:00 網站更新
+        if time.localtime().tm_hour == 8 and time.localtime().tm_min > 50:
+            time.sleep(600)
+        else:
+            time.sleep(300)
 
 
 if __name__=="__main__":
