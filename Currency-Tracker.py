@@ -1,9 +1,8 @@
-from IPython.display import display
+#from IPython.display import display
 import pandas as pd
 import numpy as np
 import requests
 import time
-import sys
 
 
 # 台新銀行爬蟲
