@@ -3,6 +3,10 @@
 追蹤匯率小幫手，可即時用``Line``通知<br>
 目前提供台灣銀行與台新銀行外幣匯率
 
+### Bug
+
+* 2019/9/20 台新銀行匯率網站變更，無法使用 `pandas.read_html` 方法
+
 ## Add LINE Notify ID
 
 The LINE Notify ID can get from [Here](https://notify-bot.line.me/zh_TW/) <br>
